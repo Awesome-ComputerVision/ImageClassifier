@@ -44,9 +44,9 @@ Example:
 	    sudo docker run -it -v $HOME/Programs/machineLearning:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel
 
 Then, inside the docker image, type:
-		python /tf_files/8.LabelImage.py /tf_files/test\<name of test file.jpg>
+		python /tf_files/LabelImage.py /tf_files/test\<name of test file.jpg>
 Example:
-		python /tf_files/8.LabelImage.py /tf_files/test\ data/desktop-inline21.jpg
+		python /tf_files/LabelImage.py /tf_files/test\ data/desktop-inline21.jpg
 
 The output will be something like this:
 	desktops (score = 0.99620)
