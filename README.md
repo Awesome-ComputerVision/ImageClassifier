@@ -24,7 +24,7 @@ NOTE: The folder names in which an image is kept is treated as it's label, so pl
 To retrain Inception on custom images, start the docker image:
 	    sudo docker run -it -v <path to this repo>/tf_files:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel
 Example:
-	    sudo docker run -it -v $HOME/Programs/machineLearning/tf_files:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel
+	    sudo docker run -it -v $HOME/Programs/ImageClassifier/tf_files:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel
 Then, inside docker, type the following command:
 		 python /tensorflow/tensorflow/examples/image_retraining/retrain.py \
 		 --bottleneck_dir=/tf_files/bottlenecks \
@@ -41,7 +41,7 @@ If how_many_training_steps is not given, it will default to 4000 steps. This may
 You can test the retrained version of Inception on test images by starting the docker image as:
 	    sudo docker run -it -v <path to this folder>:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel
 Example:
-	    sudo docker run -it -v $HOME/Programs/machineLearning:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel
+	    sudo docker run -it -v $HOME/Programs/ImageClassifier:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel
 
 Then, inside the docker image, type:
 		python /tf_files/LabelImage.py /tf_files/test\<name of test file.jpg>
