@@ -1,4 +1,4 @@
-# Image recognition using TensorFlow for Poets
+# Image Classification using TensorFlow for Poets
 
 ## Introduction
 TensorFlow is an open source software library for machine learning in various kinds of perceptual and language understanding tasks. It is an open source software library for numerical computation using data flow graphs. 
