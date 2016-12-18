@@ -54,3 +54,11 @@ The output will be something like this:
 	tablets (score = 0.00153)
 	
 That is, it will output the labels and the probability that the image is of that particular label. Here it is 99.6% sure that it is a desktop, which is a correct prediction.
+
+## References
+Tensor Flow for Poets (https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#4)
+Tensor Flow Wiki (https://en.wikipedia.org/wiki/TensorFlow)
+Transfer Learning (https://en.wikipedia.org/wiki/Inductive_transfer)
+Tensor Flow Image Retraining (https://www.tensorflow.org/versions/master/how_tos/image_retraining/)
+Docker (https://www.docker.com/)
+DeepDream (Inception) (https://en.wikipedia.org/wiki/DeepDream)
