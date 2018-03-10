@@ -11,8 +11,11 @@ Note: The images used here are properties of their respective owners and are use
 
 ## Requirements
 => Python 2.7 (https://www.python.org/downloads/)
+
 => Docker (https://docs.docker.com/engine/getstarted/step_one/)
+
 => Tensor Flow (https://www.tensorflow.org/get_started/os_setup)
+
 => Tensor Flow for Poets Docker Image (gcr.io/tensorflow/tensorflow:latest-devel)
 
 ## Retraining Inception (Optional)
@@ -57,8 +60,13 @@ That is, it will output the labels and the probability that the image is of that
 
 ## References
 Tensor Flow for Poets (https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#4)
+
 Tensor Flow Wiki (https://en.wikipedia.org/wiki/TensorFlow)
+
 Transfer Learning (https://en.wikipedia.org/wiki/Inductive_transfer)
+
 Tensor Flow Image Retraining (https://www.tensorflow.org/versions/master/how_tos/image_retraining/)
+
 Docker (https://www.docker.com/)
+
 DeepDream (Inception) (https://en.wikipedia.org/wiki/DeepDream)
